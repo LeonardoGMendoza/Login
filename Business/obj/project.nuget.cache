@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "OzFaeR67qb3KU2SZzCtACbNFzLTjPwC42TSNQkPiYQyv3xJNxyYT3hElsfYa/nHXRZU542YOw+ro6M84gu5Utg==",
+  "dgSpecHash": "v0Di/crLmMk/UMgnUYE/jIPR4wQVRD6iUEU06QoXS8h0pnDxxMQygBeRN0mVY3osUPLXiPxBy7oacfnvWvTxJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LEONARDO\\source\\repos\\LoginClonagen\\Business\\Business.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\LEONARDO\\source\\repos\\Login\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.10\\microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\LEONARDO\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

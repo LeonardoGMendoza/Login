@@ -9,32 +9,21 @@ namespace Model.Model
     public class Fornecedor
     {
 
-        public int idFornecedor;
-        public string inscricaoEstadual;
-        public string nomeFantasia;
-        public string ufPessoa;
-        public string numeroPessoa;
-        public string complementoPessoa;
-        public string bairroPessoa;
-        public string cidadePessoa;
-        public int cepFornecedor;
-        public int statusAtivo;
-        public string cnpj;
-        public string rua;
-        public int IdFornecedor { get { return idFornecedor; } set { idFornecedor = value; } }
-        public string InscricaoEstadual { get { return inscricaoEstadual; } set { inscricaoEstadual = value; } }
-        public string NomeFantasia { get { return nomeFantasia; } set { nomeFantasia = value; } }
-        public string UfPessoa { get { return ufPessoa; } set { ufPessoa = value; } }
-        public string NumeroPessoa { get { return numeroPessoa; } set { numeroPessoa = value; } }
-        public string ComplementoPessoa { get { return complementoPessoa; } set { complementoPessoa = value; } }
+        
+        public Guid IdFornecedor { get; set; } = Guid.Empty;
+        public string InscricaoEstadual { get; set; } = string.Empty;
+        public string NomeFantasia { get; set; } = string.Empty;
+        public string UfPessoa { get; set; } = string.Empty;
+        public string NumeroPessoa { get; set; } = string.Empty;
+        public string ComplementoPessoa { get; set; } = string.Empty;
 
-        public string BairroPessoa { get { return bairroPessoa; } set { bairroPessoa = value; } }
-        public string CidadePessoa { get { return cidadePessoa; } set { cidadePessoa = value; } }
-        public int CepFornecedor { get { return cepFornecedor; } set { cepFornecedor = value; } }
+        public string BairroPessoa { get; set; } = string.Empty;
+        public string CidadePessoa { get; set; } = string.Empty;
+        public int CepFornecedor { get; set; } 
 
-        public int StatusAtivo { get { return statusAtivo; } set { statusAtivo = value; } }
-        public string Cnpj { get { return cnpj; } set { cnpj = value; } }
-        public string Rua { get { return rua; } set { rua = value; } }
+        public int StatusAtivo { get; set; }
+        public string CnpjFornecedor { get; set; } = string.Empty;
+        public string Rua { get; set; } = string.Empty;
 
 
     }

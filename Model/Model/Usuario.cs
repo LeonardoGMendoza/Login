@@ -8,11 +8,9 @@ namespace Model.Model
 {
     public class Usuario
     {
-        public string login;
-        public string senha;
-        public bool statusAtivo;
-        public string Login { get { return login; } set { login = value; } }
-        public string Senha { get { return senha; } set { senha = value; } }
-        public bool StatusAtivo { get { return statusAtivo; } set { statusAtivo = value; } }
+        
+        public string Login { get; set; } = string.Empty;
+        public string Senha { get; set; } = string.Empty;
+        public bool StatusAtivo { get; set; }
     }
 }

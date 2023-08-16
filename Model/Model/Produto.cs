@@ -9,31 +9,18 @@ namespace Model.Model
     public class Produto
     {
 
-        public string codBarras;
-        public int idProduto;
-        public int codFornecedor;
-        public string nomeProduto;
-        public string descricaoProduto;
-        public decimal precoCusto;
-        public decimal precoVenda;
-        public decimal margemLucro;
-        DateTime dataFabricao;
-        DateTime dataVencimento;
-        public int quatidadeEstoqueProduto;
-        public string categoria;
-        public int statusAtivo;
-        public string CodBarras { get { return codBarras; } set { codBarras = value; } }
-        public int IdProduto { get { return idProduto; } set { idProduto = value; } }
-        public int CodFornecedor { get { return codFornecedor; } set { codFornecedor = value; } }
-        public string NomeProduto { get { return nomeProduto; } set { nomeProduto = value; } }
-        public string DescricaoProduto { get { return descricaoProduto; } set { descricaoProduto = value; } }
-        public decimal PrecoCusto { get { return precoCusto; } set { precoCusto = value; } }
-        public decimal PrecoVenda { get { return precoVenda; } set { precoVenda = value; } }
-        public decimal MargemLucro { get { return margemLucro; } set { margemLucro = value; } }
-        public DateTime DataFabricacao { get { return dataFabricao; } set { dataFabricao = value; } }
-        public DateTime DataVencimento { get { return dataVencimento; } set { dataVencimento = value; } }
-        public int QuantidadeEstoqueProduto { get { return quatidadeEstoqueProduto; } set { quatidadeEstoqueProduto = value; } }
-        public string Categoria { get { return categoria; } set { categoria = value; } }
-        public int StatusAtivo { get { return statusAtivo; } set { statusAtivo = value; } }
+        public string CodBarras { get; set; } = string.Empty;
+        public Guid IdProduto { get; set; } = Guid.Empty;
+        public Guid IdFornecedor { get; set; } = Guid.Empty;
+        public string NomeProduto { get; set; } = string.Empty;
+        public string DescricaoProduto { get; set; } = string.Empty;
+        public decimal PrecoCusto { get; set; } 
+        public decimal PrecoVenda { get; set; } 
+        public decimal MargemLucro { get; set; } 
+        public DateTime DataFabricacao { get; set; } 
+        public DateTime DataVencimento { get; set; } 
+        public int QuantidadeEstoqueProduto { get; set; } 
+        public string Categoria { get; set; } = string.Empty;
+        public int StatusAtivo { get; set; } 
     }
 }
